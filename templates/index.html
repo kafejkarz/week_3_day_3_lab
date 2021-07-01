@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h1>My Items List</h1>
+        {% for item in items3 %}
+        <div>
+            <p>{{ item.customer_name }}: <b> {{ item.book_title}}</b></p>
+        </div>
+        {% endfor %}
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h1>This is my first order "A"</h1>
+        {% for item in items3 %}
+        <div>
+            <p>{{ item.description }}</p>
+        </div>
+        <div>
+            <p>{{ item.customer_name }}</p>
+        </div>
+        {% endfor %}
+    </body>
+</html>
